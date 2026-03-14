@@ -27,4 +27,11 @@ public class Paroot {
     public void setName(String name) {
         this.name = "Cr7";
     }
+
+    @Override
+    public String toString() {
+        return "Paroot{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
